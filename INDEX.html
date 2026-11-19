@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="banner">
+            <!-- Logo-->
+            <div class="logo">
+                N
+            </div>
+            <div>
+                <h1> NETRA </h1>
+                <p>ROBOT MiSSION CONTROL</p>
+            </div>
+        </div>
+        <div class="Dispatch-button">
+            <button>+DISPATCH MISSION</button>
+        </div>
+        <nav class="navbar">
+            <a href="#">HOME</a>
+            <a href="#">SHOP</a>
+            <a href="#">ADD TO CART</a>
+            <a href="#">Alerts</a>
+            <a href="https://google.com" >Google</a>
+        </nav>
+
+        <div class="system-time">
+            <p>SYSTEM ONLINE: <span></span></p>
+            <strong id="clock">--:--:-- AM</strong>
+        </div>
+    </header>
+
+
+<!-- Main page content -->
+<main class="page">
+
+    <!-- MENU MANCHIVADINI -->
+    <section class="MANCHIVADINI-grid">
+
+        <article class="MANCHIVADINI-grid">
+            <span>Rover online</span>
+            <h2 id="online-count">6/6</h2>
+            <p>Active rover units</p>
+        </article>
+
+        <article class="MANCHIVADINI-grid">
+            <span>AVERAGE BATTERY LEVEL</span>
+            <h2 id="offline-count">85%</h2>
+            <p>Fleet battery level</p>
+        </article>
+
+        <article class="MANCHIVADINI-grid">
+            <span>OPEN ALERTS</span>
+            <h2 id="alerts">Active</h2>
+            <p>Required attention</p>
+        </article>
+
+    </section>
+</main>
+
+
+    <script src="back.js">  
+    updateClock();
+      </script>
+</body>
+</html>
